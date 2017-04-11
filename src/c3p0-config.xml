@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<!-- 默认配置，如果没有指定则使用这个配置 -->
+	<default-config>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<!-- 使用utf8编码格式，解决个别机器数据库乱码问题 -->
+		<property name="jdbcUrl">jdbc:mysql:///estore?useUnicode=true&amp;characterEncoding=utf8</property>
+		<property name="user">root</property>
+		<property name="password">123</property>
+	</default-config>
+</c3p0-config> 
